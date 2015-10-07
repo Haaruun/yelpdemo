@@ -21,6 +21,8 @@ gem 'fog', require: 'fog/aws'
 
 gem 'figaro', '0.7'
 
+gem "mini_magick"
+
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
